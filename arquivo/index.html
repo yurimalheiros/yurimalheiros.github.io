@@ -1,0 +1,12 @@
+---
+layout: page
+title: Archive - Alessandro Di Martino
+---
+
+<h1>Arquivo</h1>
+{% for post in site.posts %}
+<h3>
+  {{ post.date | date: '%d-%m-%Y' }}&#32;&mdash;&#32;
+  <a  class='archive-post-title' href='{{ post.url }}'>{{post.title }}</a>
+</h3>
+{% endfor %}

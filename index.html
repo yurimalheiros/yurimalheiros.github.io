@@ -1,13 +1,46 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Yuri Malheiros
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+{% for post in paginator.posts %}
+<article>
+  <h1>
+    <a class='post-title' href='{{ post.url }}'>{{ post.title }}</a>
+  </h1>
+  <p class='post-date'>{{ post.date | date:"%d-%m-%Y" }}</p>
+  {{ post.content }}
+</article>
+<div class='spacer'></div>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<hr id='bottom-separator'/>
+<nav id='pagination'>
+  {% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+  <a href='/'>← Anterior</a>
+  {% else %}
+  <a href='/page{{paginator.previous_page}}'>← Anterior</a>
+  {% endif %}
+  {% else %}
+  <span>← Anterior</span>
+  {% endif %}
+  {% if paginator.page == 1 %}
+  <span class='current-page page-number'>1</span>
+  {% else %}
+  <a href='/' class='page-number'>1</a>
+  {% endif %}
+  {% for count in (2..paginator.total_pages) %}
+  {% if count == paginator.page %}
+  <span class='current-page page-number'>{{count}}</span>
+  {% else %}
+  <a href='/page{{count}}' class='page-number'>{{count}}</a>
+  {% endif %}
+  {% endfor %}
+  {% if paginator.next_page %}
+  <a href='/page{{paginator.next_page}}' class='next-page'>Próximo →</a>
+  {% else %}
+  <span class='next-page'>Próximo →</span>
+  {% endif %}
+</nav>
+{% endif %}

@@ -1,46 +1,122 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta http-equiv='content-type' content='text/html; charset=utf-8'>
+    <title>{{ page.title }}</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='/css/pygments.css' rel='stylesheet'>
+    <link href='/css/normalize.css' rel='stylesheet'>
+    <link href='/css/font-awesome.min.css' rel='stylesheet'>
+    <!--[if lt IE 9]>
+    <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+    <![endif]-->
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <link href='/css/style.css' rel='stylesheet'>
+    <link rel='shortcut icon' href='/favicon.ico'>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Google Analytics (Remove or update this code with your Analytics ID if you forked the GitHub repo) -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-998466-4']);
+        _gaq.push(['_trackPageview']);
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+     </script>
+  </head>
+  <body>
+    <div id='top-bar'>
+      <nav id='navigation'>
+        {% if page.url == '/arquivo/index.html' %}
+        <div class='current-nav-item'>
+          <a href='/arquivo'>
+            <i class='icon-folder-close'></i>
+            ARQUIVO
+          </a>
+        </div>
+        {% else %}
+        <a class='nav-item' href='/arquivo'>
+          <i class='icon-folder-close'></i>
+          ARQUIVO
+        </a>
+        {% endif %}
+        {% if page.url == '/sobre/index.html' %}
+        <div class='current-nav-item'>
+          <a href='/sobre'>
+            <i class='icon-user'></i>
+            SOBRE
+          </a>
+        </div>
+        {% else %}
+        <a class='nav-item' href='/sobre'>
+          <i class='icon-user'></i>
+          SOBRE
+        </a>
+        {% endif %}
+        {% if page.url == '/projetos/index.html' %}
+        <div class='current-nav-item'>
+          <a href='/projetos'>
+            <i class='icon-beaker'></i>
+            PROJETOS
+          </a>
+        </div>
+        {% else %}
+        <a class='nav-item' href='/projetos'>
+          <i class='icon-beaker'></i>
+          PROJETOS
+        </a>
+        {% endif %}
+        {% if page.url == '/apresentacoes/index.html' %}
+        <div class='current-nav-item'>
+          <a href='/apresentacoes'>
+            <i class='icon-star'></i>
+            APRESENTAÇÕES
+          </a>
+        </div>
+        {% else %}
+        <a class='nav-item' href='/apresentacoes'>
+          <i class='icon-star'></i>
+          APRESENTAÇÕES
+        </a>
+        {% endif %}
 
-    </head>
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+        {% if page.url == '/contato/index.html' %}
+        <div class='current-nav-item'>
+          <a href='/contato'>
+            <i class='icon-envelope-alt'></i>
+            CONTATO
+          </a>
+        </div>
+        {% else %}
+        <a href='/contato'>
+          <i class='icon-envelope-alt'></i>
+          CONTATO
+        </a>
+        {% endif %}
+      </nav>
+    </div>
+    <div id='container-wrapper'>
+      <div id='container'>
+        <header>
+          <h1 id='blog-title'>
+            <a href='/'>Yuri Malheiros</a>
+          </h1>
+          <h2 id='blog-subtitle'>Professor e pesquisador da UFPB - Campus IV</h2>
+        </header>
+        <hr id='top-separator'/>
+        {{ content }}
+      </div>
+    </div>
+    <footer>
+      <p><a href='https://github.com/zeis/zeis.github.com'>Design</a>
+        by <a href='http://alessandrodimartino.com'>Alessandro Di Martino</a>
+        and <a href='https://github.com/yurimalheiros/yurimalheiros.github.io'>hacked by me</a> x)
+      </p>
+    </footer>
+  </body>
 </html>
