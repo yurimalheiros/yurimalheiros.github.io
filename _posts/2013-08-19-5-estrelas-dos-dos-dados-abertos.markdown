@@ -5,7 +5,7 @@ date: 2013-08-19 13:00:00
 comments: true
 ---
 
-Vários países têm aberto inúmeros dados importantes tornando o governo mais transparente para a população, dando poder para as pessoas consiguerem analisar os dados e poderem criar as mais diversas aplicações e visualizações.
+Vários países têm aberto inúmeros dados importantes tornando o governo mais transparente para a população, dando poder para as pessoas conseguirem analisar os dados e poderem criar as mais diversas aplicações e visualizações.
 
 As possibilidades são grandes e as vantagens para a população também, mas para que seja possível fazer algo, o governo precisa colaborar primeiro. Não adianta ter desenvolvedores, designers e cientistas juntos se não existir a base para o trabalho, ou seja, os dados.
 
@@ -14,7 +14,7 @@ As possibilidades são grandes e as vantagens para a população também, mas pa
 A classificação proposta pelo Berners-Lee é a seguinte:
 
 - ★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
-- ★ ★ : dados disponíveis de forma estruturada. Por exemplo, um arquido Excel.
+- ★ ★ : dados disponíveis de forma estruturada. Por exemplo, um arquivo Excel.
 - ★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV.
 - ★ ★ ★ ★ : use URIs para denotar os dados, assim outras pessoas podem criar links para eles. Por exemplo, um RDF.
 - ★ ★ ★ ★ ★ : link os seus dados a outros. Por exemplo, um RDF que tenha links para outros RDF.
