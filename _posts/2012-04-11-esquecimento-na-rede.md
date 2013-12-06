@@ -22,7 +22,7 @@ Entretanto esquecer as vezes é bom. Lembrar todos os pequenos detalhes a todo m
 
 Algumas tentativas de desaparecer da Rede ficaram conhecidas como infosuicídio. Isso acontece quando alguém tenta apagar todos os seus rastros na Rede. Um caso bastante conhecido é o do ["_why"](http://en.wikipedia.org/wiki/Why_the_lucky_stiff), um desenvolvedor com diversas contribuições para comunidade Ruby, além de ser cartunista, músico e escritor. Ele sumiu do mundo digital, assim como o seu trabalho.
 
-O sumiço foi completo? Claro que não. Existem diversos sites espalhados na Rede com cópias do legado deixado pelo _why. Ninguém morre na Rede.
+O sumiço foi completo? Claro que não. Existem diversos sites espalhados na Rede com cópias do legado deixado pelo \_why. Ninguém morre na Rede.
 
 Um caso mais recente no mundo da tecnologia aconteceu com o [Mark Pilgrim](http://en.wikipedia.org/wiki/Mark_Pilgrim_\(software_developer\)). Ele também sumiu junto com suas contribuições, mas a Rede novamente não o deixou morrer por completo.
 
