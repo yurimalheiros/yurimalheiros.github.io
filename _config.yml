@@ -1,5 +1,5 @@
 name: Yuri Malheiros
 markdown: redcarpet
-pygments: true
+highlighter: true
 paginate: 5
 permalink: /:year/:month/:day/:title
