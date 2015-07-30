@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <p class='post-date'>{{ page.date | date:"%d-%m-%Y" }}</p>
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%d/%m/%Y' }}</time>
   {{ content }}
 </article>
 
@@ -23,4 +23,19 @@ var disqus_shortname = 'yurimalheiros';
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
 
-<div class='spacer'></div>
+
+{% if site.related_posts != empty %}
+<aside class="related">
+  <h2>Mais posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d/%m/%Y' }}</time></small>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

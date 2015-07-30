@@ -1,5 +1,29 @@
-name: Yuri Malheiros
-markdown: redcarpet
-highlighter: pygments
-paginate: 5
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:year/:month/:day/:title
+
+# Setup
+title:               Yuri Malheiros
+tagline:             Professor e pesquisador da UFPB - Campus IV
+url:                 http://yurimalheiros.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Yuri Malheiros
+  url:               https://twitter.com/yurimalheiros
+  # email:             markdotto@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole

@@ -1,148 +1,35 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta http-equiv='content-type' content='text/html; charset=utf-8'>
-    <title>{{ page.title }}</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='/css/pygments.css' rel='stylesheet'>
-    <link href='/css/normalize.css' rel='stylesheet'>
-    <link href='/css/font-awesome.min.css' rel='stylesheet'>
-    <!--[if lt IE 9]>
-    <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
-    <![endif]-->
-    <!--[if IE 7]>
-    <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
-    <![endif]-->
-    <link href='/css/style.css' rel='stylesheet'>
-    <link rel='shortcut icon' href='/favicon.ico'>
+<!DOCTYPE html>
+<html lang="en">
 
-    <meta content="{{ site.title }}" property="og:site_name">
-  {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title">
-  {% else %}
-    <meta content="{{ site.title }}" property="og:title">
-  {% endif %}
+  {% include head.html %}
 
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  {% if page.title %}
-    <meta content="article" property="og:type">
-  {% else %}
-    <meta content="website" property="og:type">
-  {% endif %}
-
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-  {% if page.date %}
-    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  {% endif %}
-
-
-
-
-
-
-    <!-- Google Analytics (Remove or update this code with your Analytics ID if you forked the GitHub repo) -->
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-998466-4']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-     </script>
-  </head>
   <body>
-    <div id='top-bar'>
-      <nav id='navigation'>
-        {% if page.url == '/arquivo/index.html' %}
-        <div class='current-nav-item'>
-          <a href='/arquivo'>
-            <i class='icon-folder-close'></i>
-            ARQUIVO
-          </a>
-        </div>
-        {% else %}
-        <a class='nav-item' href='/arquivo'>
-          <i class='icon-folder-close'></i>
-          ARQUIVO
-        </a>
-        {% endif %}
-        {% if page.url == '/sobre/index.html' %}
-        <div class='current-nav-item'>
-          <a href='/sobre'>
-            <i class='icon-user'></i>
-            SOBRE
-          </a>
-        </div>
-        {% else %}
-        <a class='nav-item' href='/sobre'>
-          <i class='icon-user'></i>
-          SOBRE
-        </a>
-        {% endif %}
-        {% if page.url == '/projetos/index.html' %}
-        <div class='current-nav-item'>
-          <a href='/projetos'>
-            <i class='icon-beaker'></i>
-            PROJETOS
-          </a>
-        </div>
-        {% else %}
-        <a class='nav-item' href='/projetos'>
-          <i class='icon-beaker'></i>
-          PROJETOS
-        </a>
-        {% endif %}
-        {% if page.url == '/apresentacoes/index.html' %}
-        <div class='current-nav-item'>
-          <a href='/apresentacoes'>
-            <i class='icon-star'></i>
-            APRESENTAÇÕES
-          </a>
-        </div>
-        {% else %}
-        <a class='nav-item' href='/apresentacoes'>
-          <i class='icon-star'></i>
-          APRESENTAÇÕES
-        </a>
-        {% endif %}
 
-        {% if page.url == '/contato/index.html' %}
-        <div class='current-nav-item'>
-          <a href='/contato'>
-            <i class='icon-envelope-alt'></i>
-            CONTATO
-          </a>
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+        <div class="menu">
+          <a href="/arquivo">/arquivo</a>
+          <a href="/sobre">/sobre</a>
+          <a href="/projetos">/projetos</a>
+          <a href="/apresentacoes">/apresentações</a>
+          <a href="/contato">/contato</a>
         </div>
-        {% else %}
-        <a href='/contato'>
-          <i class='icon-envelope-alt'></i>
-          CONTATO
-        </a>
-        {% endif %}
-      </nav>
-    </div>
-    <div id='container-wrapper'>
-      <div id='container'>
-        <header>
-          <h1 id='blog-title'>
-            <a href='/'>Yuri Malheiros</a>
-          </h1>
-          <h2 id='blog-subtitle'>Professor e pesquisador da UFPB - Campus IV</h2>
-        </header>
-        <hr id='top-separator'/>
+      </header>
+
+      <main>
         {{ content }}
-      </div>
+      </main>
+
+      <footer class="footer">
+        <!-- <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. Todos os direitos reservados. -->
+        </small>
+      </footer>
     </div>
-    <footer>
-      <p><a href='https://github.com/zeis/zeis.github.com'>Design</a>
-        by <a href='http://alessandrodimartino.com'>Alessandro Di Martino</a>
-        and <a href='https://github.com/yurimalheiros/yurimalheiros.github.io'>hacked by me</a> x)
-      </p>
-    </footer>
+
   </body>
 </html>
