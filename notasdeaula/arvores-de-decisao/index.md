@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notas de Aula - Árvores de Decisão
+title: Inteligência Artificial - Árvores de Decisão
 ---
 
 # Árvores de decisão

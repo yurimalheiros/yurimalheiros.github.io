@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notas de Aula - Planejamento
+title: Inteligência Artificial - Planejamento
 ---
 
 # Planejamento clássico

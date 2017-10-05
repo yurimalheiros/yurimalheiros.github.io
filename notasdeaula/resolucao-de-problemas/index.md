@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notas de Aula - Resolução de Problemas (Buscas)
+title: Inteligência Artificial - Resolução de Problemas (Buscas)
 ---
 
 # Resolução de problemas

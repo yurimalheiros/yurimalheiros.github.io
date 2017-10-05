@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notas de Aula - Aprendizagem de Máquina - Introdução e Regressões
+title: Inteligência Artificial - Aprendizagem de Máquina - Introdução e Regressões
 ---
 
 # Aprendizagem de máquina - Primeiros passos e regressões
