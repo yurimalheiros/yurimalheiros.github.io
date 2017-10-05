@@ -11,10 +11,10 @@ title: Ensino
 
 Estou escrevendo notas de aula para auxiliar os estudos dos meus alunos durante a disciplina:
 
-- [Resolução de problemas](https://github.com/yurimalheiros/ianotes/blob/master/resolucao-de-problemas/resolucao-de-problemas.pdf)
-- [Planejamento](https://github.com/yurimalheiros/ianotes/blob/master/planejamento/planejamento.pdf)
-- [Árvores de decisão](https://github.com/yurimalheiros/ianotes/blob/master/arvores-de-decisao/arvoresdedecisao.pdf)
-- [Aprendizagem de máquina - primeiros passos e regressões](https://github.com/yurimalheiros/ianotes/blob/master/aprendizagem-de-maquina/aprendizagemdemaquina.pdf)
+- [Resolução de problemas](/notasdeaula/resolucao-de-problemas) ([pdf](https://github.com/yurimalheiros/ianotes/blob/master/resolucao-de-problemas/resolucao-de-problemas.pdf))
+- [Planejamento](/notasdeaula/planejamento) ([pdf](https://github.com/yurimalheiros/ianotes/blob/master/planejamento/planejamento.pdf))
+- [Árvores de decisão](/notasdeaula/arvores-de-decisao) ([pdf](https://github.com/yurimalheiros/ianotes/blob/master/arvores-de-decisao/arvoresdedecisao.pdf))
+- [Aprendizagem de máquina - primeiros passos e regressões](/notasdeaula/aprendizagem-de-maquina) ([pdf](https://github.com/yurimalheiros/ianotes/blob/master/aprendizagem-de-maquina/aprendizagemdemaquina.pdf))
 
 ### Notebooks
 
