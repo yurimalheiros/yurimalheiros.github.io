@@ -34,7 +34,7 @@ Veja também os Jupyter Notebooks com explicações e implementações de algori
 #### Árvore de decisão - implementação e demo
 
 Um demo de indução de árvore de decisão usando o algoritmo ID3 pode ser acessado em:
-[yurimalheiros.me/decisiontreejs](http://yurimalheiros.me/decisiontreejs/)
+[yurimalheiros.github.io/decisiontreejs/](https://yurimalheiros.github.io/decisiontreejs/)
 
 O código da aplicação está disponível no [GitHub](https://github.com/yurimalheiros/decisiontreejs)
 
