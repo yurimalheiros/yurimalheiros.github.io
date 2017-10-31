@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Inteligência Artificial - Aprendizagem de Máquina - Introdução e Regressões
+description: Nota de aula sobre aprendizagem de máquina escrita por Yuri Malheiros
 ---
 
 # Aprendizagem de máquina - Primeiros passos e regressões

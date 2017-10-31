@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre
+description: Sobre Yuri Malheiros, áreas de interesse e contato
 ---
 
 # Sobre

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inteligência Artificial - Resolução de Problemas (Buscas)
+description: Nota de aula sobre resolução de problemas escrita por Yuri Malheiros
 ---
 
 # Resolução de problemas

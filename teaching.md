@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ensino
+description: Materiais de ensino criados por Yuri Malheiros
 ---
 
 # Ensino

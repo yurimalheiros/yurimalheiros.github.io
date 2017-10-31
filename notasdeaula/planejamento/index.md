@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Inteligência Artificial - Planejamento
+description: Nota de aula sobre planejamento escrita por Yuri Malheiros
 ---
 
 # Planejamento clássico

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contato
+description: Entre em contato com Yuri Malheiros
 ---
 
 # Contato

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Inteligência Artificial - Árvores de Decisão
+description: Nota de aula sobre árvores de decisão escrita por Yuri Malheiros
 ---
 
 # Árvores de decisão
