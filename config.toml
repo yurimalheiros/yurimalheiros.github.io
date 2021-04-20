@@ -1,0 +1,18 @@
+baseURL = "http://yurimalheiros.me/"
+languageCode = "pt-br"
+title = "Yuri Malheiros"
+theme = "hugo-researcher"
+publishDir = "docs"
+
+[params]
+  author = "Yuri Malheiros"
+  description = "Yuri Malheiros - professor da UFPB."
+  favicon = "favicon-96x96.png"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#C03221"
+    colorWhite = "#F8F4E3"
