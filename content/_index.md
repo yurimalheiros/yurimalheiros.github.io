@@ -11,8 +11,10 @@ title = "Yuri Malheiros"
 
 ## Projetos 
 - **2020-atual:** Inteligência Artificial para Detecção de Fraude Fiscal - Secretaria de Fazenda do Estado da Paraíba
-- **2021-atual:** Auditoria de Empenhos Utilizando Aprendizagem de Máquina - Tribunal de Contas do Estado da Paraíba
-- **2021-atual:** Modelos Generativos para Composições Musicais - Moises.ai
+- **2020-atual:** Segmentação Automática de Imagens por Tomossíntese Mamária - University of Pennsylvania
+- **2021-atual:** Aprendizagem de Máquina Aplicada à Música - Moises.ai
+- **2022-atual:** Turmalina - Auditoria de Portais de Transparência - Tribunal de Contas do Estado da Paraíba
+- **2021-2022:** Auditoria de Empenhos Utilizando Aprendizagem de Máquina - Tribunal de Contas do Estado da Paraíba
 
 ## Pesquisa
 - [ARIA – Laboratório de Aplicações em Inteligência Artificial](https://aria.ci.ufpb.br)
