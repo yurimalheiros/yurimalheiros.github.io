@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yuri Malheiros</title>
-    <link>http://yurimalheiros.me/tags/</link>
+    <link>http://yurimalheiros.com/tags/</link>
     <description>Recent content in Tags on Yuri Malheiros</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="http://yurimalheiros.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="http://yurimalheiros.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

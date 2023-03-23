@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://yurimalheiros.me/categories/</loc>
+    <loc>http://yurimalheiros.com/categories/</loc>
+  </url><url>
+    <loc>http://yurimalheiros.com/notasdeaula/</loc>
+  </url><url>
+    <loc>http://yurimalheiros.com/notebooks/</loc>
+  </url><url>
+    <loc>http://yurimalheiros.com/tags/</loc>
+  </url><url>
+    <loc>http://yurimalheiros.com/</loc>
   </url>
-  
-  <url>
-    <loc>http://yurimalheiros.me/notasdeaula/</loc>
-  </url>
-  
-  <url>
-    <loc>http://yurimalheiros.me/notebooks/</loc>
-  </url>
-  
-  <url>
-    <loc>http://yurimalheiros.me/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>http://yurimalheiros.me/</loc>
-  </url>
-  
 </urlset>
