@@ -1,6 +1,6 @@
-+++
-title = "Yuri Malheiros"
-+++
+---
+title: "Yuri Malheiros"
+---
 
 ## Sobre
 {{<figure class="avatar" src="/profile.jpg" alt="avatar">}}
@@ -13,7 +13,7 @@ title = "Yuri Malheiros"
 - **2020-atual:** Inteligência Artificial para Detecção de Fraude Fiscal - Secretaria de Fazenda do Estado da Paraíba
 - **2020-atual:** Segmentação Automática de Imagens por Tomossíntese Mamária - University of Pennsylvania
 - **2021-atual:** Aprendizagem de Máquina Aplicada à Música - Moises.ai
-- **2022-atual:** Turmalina - Auditoria de Portais de Transparência - Tribunal de Contas do Estado da Paraíba
+- **2022-2023:** Turmalina - Auditoria de Portais de Transparência - Tribunal de Contas do Estado da Paraíba
 - **2021-2022:** Auditoria de Empenhos Utilizando Aprendizagem de Máquina - Tribunal de Contas do Estado da Paraíba
 
 ## Pesquisa

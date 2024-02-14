@@ -1,6 +1,6 @@
-+++
-title = "Notebooks"
-+++
+---
+title: Notebooks
+---
 
 ## Inteligência Artificial
 - [Regressão Linear Simples](https://nbviewer.jupyter.org/github/yurimalheiros/ai-notebooks/blob/master/ml/gdlinearregression.ipynb)
@@ -12,6 +12,11 @@ title = "Notebooks"
 - [K-means](https://nbviewer.jupyter.org/github/yurimalheiros/ai-notebooks/blob/master/ml/kmeans.ipynb)
 - [Principal Component Analysis (PCA)](https://nbviewer.jupyter.org/github/yurimalheiros/ai-notebooks/blob/master/ml/pca.ipynb)
 - [Perplexidade](https://nbviewer.jupyter.org/github/yurimalheiros/ai-notebooks/blob/master/nlp/perplexity.ipynb)
+
+## Processamento de Linguagem Natural
+- [Rede Neural Recorrente (RNN)](https://github.com/yurimalheiros/pln/blob/main/rnn.ipynb)
+- [Long Short-Term Memory (LSTM)](https://github.com/yurimalheiros/pln/blob/main/lstm.ipynb)
+- [Sequence-to-Sequence (Seq2Seq)](https://github.com/yurimalheiros/pln/blob/main/seq2seq.ipynb)
 
 ## Ciência de Dados
 - [Python - Funções](https://github.com/yurimalheiros/icd/blob/master/Python%20-%20Funções.ipynb)

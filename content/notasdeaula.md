@@ -1,6 +1,7 @@
-+++
-title = "Notas de Aula"
-+++
+---
+title: "Notas de Aula"
+---
+
 
 ## Inteligência Artificial
 - [Resolução de problemas](https://github.com/yurimalheiros/ianotes/blob/master/resolucao-de-problemas/resolucao-de-problemas.pdf)
