@@ -30,6 +30,9 @@ title: "Yuri Malheiros"
 - [SenticNet API](https://github.com/yurimalheiros/senticnetapi/)
 - [ID3 Decision Tree Algorithm Visualization](https://github.com/yurimalheiros/decisiontreejs)
 
+## Misc
+- [Gerenciamento de Tempo e Tarefas](gerenciamento-de-tempo)
+
 ## Contato
 - [Twitter](https://twitter.com/yurimalheiros)
 - [GitHub](https://github.com/yurimalheiros)
