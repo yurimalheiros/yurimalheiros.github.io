@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuri Malheiros</title>
-    <link>http://yurimalheiros.com/</link>
+    <link>https://yurimalheiros.com/</link>
     <description>Recent content on Yuri Malheiros</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language><atom:link href="http://yurimalheiros.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt-br</language><atom:link href="https://yurimalheiros.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://yurimalheiros.com/gerenciamento-de-tempo/</link>
+      <link>https://yurimalheiros.com/gerenciamento-de-tempo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yurimalheiros.com/gerenciamento-de-tempo/</guid>
+      <guid>https://yurimalheiros.com/gerenciamento-de-tempo/</guid>
       <description>Gerenciamento de tempo e tarefas Introdução Recentemente, conversando com meus orientandos, eu percebi que existe um problema frequente de gerenciamento de tempo e tarefas. Os alunos do Centro de Informática da UFPB precisam realizar múltiplas atividades durante as semanas: assistir aula, estudar para provas, participar de projetos de pesquisa e inovação, participar de palestras, estágios, ler artigos científicos, fazer cursos extras, etc. Conseguir gerenciar tudo isso e ainda conciliar com as atividades pessoais é um problema complexo.</description>
     </item>
     
     <item>
       <title>Notas de Aula</title>
-      <link>http://yurimalheiros.com/notasdeaula/</link>
+      <link>https://yurimalheiros.com/notasdeaula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yurimalheiros.com/notasdeaula/</guid>
+      <guid>https://yurimalheiros.com/notasdeaula/</guid>
       <description>Inteligência Artificial Resolução de problemas Planejamento Árvores de decisão Aprendizagem de máquina - primeiros passos e regressões Aprendizagem de máquina - classificação Algoritmos genéticos </description>
     </item>
     
     <item>
       <title>Notebooks</title>
-      <link>http://yurimalheiros.com/notebooks/</link>
+      <link>https://yurimalheiros.com/notebooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://yurimalheiros.com/notebooks/</guid>
+      <guid>https://yurimalheiros.com/notebooks/</guid>
       <description>Inteligência Artificial Regressão Linear Simples Regressão Linear Múltipla Regressão Polinomial Regressão Logística Naive Bayes K-Nearest Neighbors (KNN) K-means Principal Component Analysis (PCA) Perplexidade Processamento de Linguagem Natural Rede Neural Recorrente (RNN) Long Short-Term Memory (LSTM) Sequence-to-Sequence (Seq2Seq) Ciência de Dados Python - Funções Python - Dicionários, Counters e Sets Python - Listas Python - Strings Python - Random NumPy Pandas Elo Ranking Visualização de Dados Limpeza e Transformação de Dados Agrupamento </description>
     </item>
     

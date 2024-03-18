@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://yurimalheiros.com/gerenciamento-de-tempo/</loc>
+    <loc>https://yurimalheiros.com/gerenciamento-de-tempo/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>http://yurimalheiros.com/categories/</loc>
+    <loc>https://yurimalheiros.com/categories/</loc>
   </url><url>
-    <loc>http://yurimalheiros.com/notasdeaula/</loc>
+    <loc>https://yurimalheiros.com/notasdeaula/</loc>
   </url><url>
-    <loc>http://yurimalheiros.com/notebooks/</loc>
+    <loc>https://yurimalheiros.com/notebooks/</loc>
   </url><url>
-    <loc>http://yurimalheiros.com/tags/</loc>
+    <loc>https://yurimalheiros.com/tags/</loc>
   </url><url>
-    <loc>http://yurimalheiros.com/</loc>
+    <loc>https://yurimalheiros.com/</loc>
   </url>
 </urlset>

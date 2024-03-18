@@ -1,4 +1,4 @@
-baseURL = "http://yurimalheiros.com/"
+baseURL = "https://yurimalheiros.com/"
 languageCode = "pt-br"
 title = "Yuri Malheiros"
 theme = "hugo-researcher"
