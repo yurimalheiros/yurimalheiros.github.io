@@ -4,11 +4,21 @@ title = "Yuri Malheiros"
 theme = "hugo-researcher"
 publishDir = "docs"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
 [params]
   author = "Yuri Malheiros"
   description = "Yuri Malheiros - professor da UFPB."
   favicon = "favicon-96x96.png"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
+  math = true
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     pageWidth = "750px"
