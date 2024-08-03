@@ -120,12 +120,13 @@ body {
         & th {
             @extend %table-cell;
             font-weight: bold;
+            background-color: #f4eed3;
         }
         & td {
             @extend %table-cell;
         }
         & tr:nth-child(2n) {
-            background-color: #f8f8f8;
+            background-color: #f4eed3;
         }
     }
     blockquote {

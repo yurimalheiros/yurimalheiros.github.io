@@ -32,6 +32,7 @@ title: "Yuri Malheiros"
 
 ## Misc
 - [Gerenciamento de Tempo e Tarefas](gerenciamento-de-tempo)
+- [Elo do Campeonato Brasileiro](elo-brasileirao) 
 
 ## Contato
 - [Twitter](https://twitter.com/yurimalheiros)
