@@ -6,30 +6,30 @@
 
 {{< rawhtml >}}
 
-## 2024 (20a rodada)
+## 2024 (21a rodada)
 
 |   # | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
-|   1 |    1 | Flamengo      | 1177.24 |
-|   2 |    3 | Palmeiras     | 1167.36 |
-|   3 |    9 | Atlético-MG   | 1145.24 |
-|   4 |    2 | Botafogo      | 1142.75 |
-|   5 |    4 | Fortaleza     | 1120.69 |
-|   6 |    6 | São Paulo     | 1110.90 |
-|   7 |   14 | Internacional | 1094.38 |
-|   8 |    8 | Athletico-PR  | 1087.62 |
-|   9 |    5 | Cruzeiro      | 1075.85 |
-|  10 |   10 | Bragantino    | 1072.07 |
-|  11 |   16 | Grêmio        | 1061.22 |
+|   1 |    4 | Palmeiras     | 1167.36 |
+|   2 |    2 | Flamengo      | 1165.08 |
+|   3 |    1 | Botafogo      | 1136.13 |
+|   4 |    9 | Atlético-MG   | 1130.53 |
+|   5 |    3 | Fortaleza     | 1130.40 |
+|   6 |    6 | São Paulo     | 1113.33 |
+|   7 |   16 | Internacional | 1094.37 |
+|   8 |    5 | Cruzeiro      | 1087.75 |
+|   9 |    8 | Athletico-PR  | 1087.61 |
+|  10 |   10 | Bragantino    | 1070.81 |
+|  11 |   14 | Grêmio        | 1061.22 |
 |  12 |    7 | Bahia         | 1055.52 |
-|  13 |   15 | Corinthians   | 1046.34 |
-|  14 |   19 | Fluminense    | 1043.54 |
-|  15 |   11 | Vasco         | 1028.24 |
-|  16 |   18 | Cuiabá        | 1022.55 |
-|  17 |   12 | Criciúma      |  968.05 |
-|  18 |   17 | Vitória       |  960.29 |
-|  19 |   20 | Atlético-GO   |  952.64 |
-|  20 |   13 | Juventude     |  952.50 |
+|  13 |   18 | Corinthians   | 1046.34 |
+|  14 |   17 | Fluminense    | 1043.54 |
+|  15 |   11 | Vasco         | 1029.49 |
+|  16 |   19 | Cuiabá        | 1010.77 |
+|  17 |   12 | Criciúma      |  982.75 |
+|  18 |   15 | Vitória       |  972.06 |
+|  19 |   13 | Juventude     |  952.50 |
+|  20 |   20 | Atlético-GO   |  947.37 |
 
 
 ## 2023
