@@ -2,60 +2,57 @@
 # Elo - Campeonato Brasileiro
 
 
-
-
 {{< rawhtml >}}
 
-## 2024 (21a rodada)
+## 2024 (22a rodada)
 
 |   # | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
-|   1 |    4 | Palmeiras     | 1167.36 |
-|   2 |    2 | Flamengo      | 1165.08 |
-|   3 |    1 | Botafogo      | 1136.13 |
-|   4 |    9 | Atlético-MG   | 1130.53 |
-|   5 |    3 | Fortaleza     | 1130.40 |
-|   6 |    6 | São Paulo     | 1113.33 |
-|   7 |   16 | Internacional | 1094.37 |
-|   8 |    5 | Cruzeiro      | 1087.75 |
-|   9 |    8 | Athletico-PR  | 1087.61 |
-|  10 |   10 | Bragantino    | 1070.81 |
-|  11 |   14 | Grêmio        | 1061.22 |
-|  12 |    7 | Bahia         | 1055.52 |
-|  13 |   18 | Corinthians   | 1046.34 |
-|  14 |   17 | Fluminense    | 1043.54 |
-|  15 |   11 | Vasco         | 1029.49 |
-|  16 |   19 | Cuiabá        | 1010.77 |
-|  17 |   12 | Criciúma      |  982.75 |
-|  18 |   15 | Vitória       |  972.06 |
-|  19 |   13 | Juventude     |  952.50 |
-|  20 |   20 | Atlético-GO   |  947.37 |
-
+|   1 |    4 | Palmeiras     | 1165.28 |
+|   2 |    3 | Flamengo      | 1165.09 |
+|   3 |    2 | Fortaleza     | 1144.96 |
+|   4 |    9 | Atlético-MG   | 1130.54 |
+|   5 |    1 | Botafogo      | 1121.35 |
+|   6 |    5 | São Paulo     | 1118.89 |
+|   7 |   15 | Internacional | 1095.89 |
+|   8 |   13 | Grêmio        | 1080.24 |
+|   9 |    6 | Cruzeiro      | 1078.97 |
+|  10 |    8 | Athletico-PR  | 1077.42 |
+|  11 |   11 | Bragantino    | 1070.81 |
+|  12 |   18 | Fluminense    | 1053.89 |
+|  13 |    7 | Bahia         | 1053.10 |
+|  14 |   17 | Corinthians   | 1043.71 |
+|  15 |   10 | Vasco         | 1029.49 |
+|  16 |   19 | Cuiabá        | 1002.52 |
+|  17 |   14 | Criciúma      |  976.97 |
+|  18 |   12 | Juventude     |  969.93 |
+|  19 |   16 | Vitória       |  964.14 |
+|  20 |   20 | Atlético-GO   |  941.81 |
 
 ## 2023
 
-| # | Real | Time                 | Elo |
-| ------: | -----------: | -------------------- | ---------: |
-|       1 |            1 | Palmeiras            |    1189.81 |
-|       2 |            3 | Atlético-MG     |    1156.54 |
-|       3 |            4 | Flamengo             |    1143.42 |
-|       4 |            9 | Internacional        |    1123.82 |
-|       5 |            2 | Grêmio               |    1122.72 |
-|       6 |            7 | Fluminense           |    1098.11 |
-|       7 |           11 | Corinthians          |    1093.59 |
-|       8 |            8 | Athletico-PR |    1087.81 |
-|       9 |           10 | São Paulo            |    1086.04 |
-|      10 |            6 | Bragantino           |    1082.04 |
-|      11 |           12 | Fortaleza            |    1079.46 |
-|      12 |            5 | Botafogo             |    1069.32 |
-|      13 |           13 | Cuiabá               |    1049.16 |
-|      14 |           15 | Vasco                |    1032.78 |
-|      15 |           14 | Cruzeiro             |    1032.15 |
-|      16 |           17 | Santos               |    1019.46 |
-|      17 |           16 | Bahia                |    1016.85 |
-|      18 |           18 | Goiás                |     988.06 |
-|      19 |           20 | América-MG      |     947.85 |
-|      20 |           19 | Coritiba             |     940.88 |
+|   # | Real | Time          |     Elo |
+| --: | ---: | ------------- | ------: |
+|   1 |    1 | Palmeiras     | 1189.81 |
+|   2 |    3 | Atlético-MG   | 1156.54 |
+|   3 |    4 | Flamengo      | 1143.42 |
+|   4 |    9 | Internacional | 1123.82 |
+|   5 |    2 | Grêmio        | 1122.72 |
+|   6 |    7 | Fluminense    | 1098.11 |
+|   7 |   11 | Corinthians   | 1093.59 |
+|   8 |    8 | Athletico-PR  | 1087.81 |
+|   9 |   10 | São Paulo     | 1086.04 |
+|  10 |    6 | Bragantino    | 1082.04 |
+|  11 |   12 | Fortaleza     | 1079.46 |
+|  12 |    5 | Botafogo      | 1069.32 |
+|  13 |   13 | Cuiabá        | 1049.16 |
+|  14 |   15 | Vasco         | 1032.78 |
+|  15 |   14 | Cruzeiro      | 1032.15 |
+|  16 |   17 | Santos        | 1019.46 |
+|  17 |   16 | Bahia         | 1016.85 |
+|  18 |   18 | Goiás         |  988.06 |
+|  19 |   20 | América-MG    |  947.85 |
+|  20 |   19 | Coritiba      |  940.88 |
 
 ## 2022
 
