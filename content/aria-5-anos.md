@@ -1,3 +1,7 @@
+---
+title: ARIA - 5 anos
+---
+
 # ARIA - 5 anos
 
 No dia 14 de agosto de 2024, o ARIA completou 5 anos. Foi nesse dia, em 2019, que o laboratório foi formalizado, mas sua história começa um pouco antes. 
