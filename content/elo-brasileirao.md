@@ -6,29 +6,29 @@ title: Elo - Campeonato Brasileiro
 
 {{< rawhtml >}}
 
-## 2024 (22a rodada)
+## 2024 (23a rodada)
 
 |   # | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
-|   1 |    4 | Palmeiras     | 1165.28 |
-|   2 |    3 | Flamengo      | 1165.09 |
-|   3 |    2 | Fortaleza     | 1144.96 |
-|   4 |    9 | Atlético-MG   | 1130.54 |
-|   5 |    1 | Botafogo      | 1121.35 |
-|   6 |    5 | São Paulo     | 1118.89 |
-|   7 |   15 | Internacional | 1095.89 |
-|   8 |   13 | Grêmio        | 1080.24 |
-|   9 |    6 | Cruzeiro      | 1078.97 |
-|  10 |    8 | Athletico-PR  | 1077.42 |
-|  11 |   11 | Bragantino    | 1070.81 |
-|  12 |   18 | Fluminense    | 1053.89 |
-|  13 |    7 | Bahia         | 1053.10 |
-|  14 |   17 | Corinthians   | 1043.71 |
-|  15 |   10 | Vasco         | 1029.49 |
-|  16 |   19 | Cuiabá        | 1002.52 |
-|  17 |   14 | Criciúma      |  976.97 |
-|  18 |   12 | Juventude     |  969.93 |
-|  19 |   16 | Vitória       |  964.14 |
+|   1 |    3 | Palmeiras     | 1173.96 |
+|   2 |    4 | Flamengo      | 1153.84 |
+|   3 |    2 | Fortaleza     | 1151.02 |
+|   4 |    1 | Botafogo      | 1132.60 |
+|   5 |    8 | Atlético-MG   | 1129.07 |
+|   6 |    6 | São Paulo     | 1110.22 |
+|   7 |   13 | Internacional | 1089.55 |
+|   8 |    9 | Athletico-PR  | 1077.42 |
+|   9 |    7 | Cruzeiro      | 1077.22 |
+|  10 |   12 | Bragantino    | 1070.03 |
+|  11 |   15 | Grêmio        | 1069.46 |
+|  12 |    5 | Bahia         | 1063.88 |
+|  13 |   17 | Corinthians   | 1044.45 |
+|  14 |   18 | Fluminense    | 1043.22 |
+|  15 |   10 | Vasco         | 1040.20 |
+|  16 |   19 | Cuiabá        | 1002.45 |
+|  17 |   14 | Criciúma      |  977.63 |
+|  18 |   11 | Juventude     |  974.45 |
+|  19 |   16 | Vitória       |  967.37 |
 |  20 |   20 | Atlético-GO   |  941.81 |
 
 ## 2023
