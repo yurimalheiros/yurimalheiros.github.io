@@ -6,34 +6,34 @@ title: Elo - Campeonato Brasileiro
 
 {{< rawhtml >}}
 
-## 2024 (23a rodada)
+## 2024 (28a rodada)
 
-|   # | Real | Time          |     Elo |
+| Elo | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
-|   1 |    3 | Palmeiras     | 1173.96 |
-|   2 |    4 | Flamengo      | 1153.84 |
-|   3 |    2 | Fortaleza     | 1151.02 |
-|   4 |    1 | Botafogo      | 1132.60 |
-|   5 |    8 | Atlético-MG   | 1129.07 |
-|   6 |    6 | São Paulo     | 1110.22 |
-|   7 |   13 | Internacional | 1089.55 |
-|   8 |    9 | Athletico-PR  | 1077.42 |
-|   9 |    7 | Cruzeiro      | 1077.22 |
-|  10 |   12 | Bragantino    | 1070.03 |
-|  11 |   15 | Grêmio        | 1069.46 |
-|  12 |    5 | Bahia         | 1063.88 |
-|  13 |   17 | Corinthians   | 1044.45 |
-|  14 |   18 | Fluminense    | 1043.22 |
-|  15 |   10 | Vasco         | 1040.20 |
-|  16 |   19 | Cuiabá        | 1002.45 |
-|  17 |   14 | Criciúma      |  977.63 |
-|  18 |   11 | Juventude     |  974.45 |
-|  19 |   16 | Vitória       |  967.37 |
-|  20 |   20 | Atlético-GO   |  941.81 |
+|   1 |    2 | Palmeiras     | 1203.84 |
+|   2 |    1 | Botafogo      | 1153.75 |
+|   3 |    3 | Fortaleza     | 1149.33 |
+|   4 |    4 | Flamengo      | 1139.71 |
+|   5 |    7 | Internacional | 1134.78 |
+|   6 |    5 | São Paulo     | 1112.46 |
+|   7 |   10 | Atlético-MG   | 1110.86 |
+|   8 |   11 | Grêmio        | 1069.15 |
+|   9 |    6 | Bahia         | 1066.86 |
+|  10 |    8 | Cruzeiro      | 1052.36 |
+|  11 |   13 | Bragantino    | 1045.14 |
+|  12 |   16 | Fluminense    | 1044.87 |
+|  13 |   18 | Corinthians   | 1042.31 |
+|  14 |    9 | Vasco         | 1040.19 |
+|  15 |   15 | Athletico-PR  | 1038.65 |
+|  16 |   19 | Cuiabá        |  997.17 |
+|  17 |   12 | Criciúma      |  985.39 |
+|  18 |   17 | Vitória       |  967.41 |
+|  19 |   14 | Juventude     |  966.03 |
+|  20 |   20 | Atlético-GO   |  945.54 |
 
 ## 2023
 
-|   # | Real | Time          |     Elo |
+| Elo | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
 |   1 |    1 | Palmeiras     | 1189.81 |
 |   2 |    3 | Atlético-MG   | 1156.54 |
