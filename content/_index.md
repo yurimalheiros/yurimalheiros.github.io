@@ -37,6 +37,6 @@ title: "Yuri Malheiros"
 - [ID3 Decision Tree Algorithm Visualization](https://github.com/yurimalheiros/decisiontreejs)
 
 ## Contato
-- [Twitter](https://twitter.com/yurimalheiros)
+- [Bluesky](https://bsky.app/profile/yurimalheiros.com)
 - [GitHub](https://github.com/yurimalheiros)
 - [E-mail](mailto:yuri@ci.ufpb.br)
