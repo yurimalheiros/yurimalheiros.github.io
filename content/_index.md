@@ -7,15 +7,7 @@ title: "Yuri Malheiros"
 
 - Professor do Centro de Informática da UFPB
 - Coordenador do [ARIA - Laboratório de Aplicações em Inteligência Artificial](https://aria.ci.ufpb.br)
-- Mestre e Doutor pela UFPE
-
-## Projetos 
-- **2020-atual:** Inteligência Artificial para Detecção de Fraude Fiscal - Secretaria de Fazenda do Estado da Paraíba
-- **2020-atual:** Segmentação Automática de Imagens por Tomossíntese Mamária - University of Pennsylvania
-- **2021-atual:** Aprendizagem de Máquina Aplicada à Música - Moises.ai
-- **2023-atual:** Visão Computacional para Análise Esportiva
-- **2022-2023:** Turmalina - Auditoria de Portais de Transparência - Tribunal de Contas do Estado da Paraíba
-- **2021-2022:** Auditoria de Empenhos Utilizando Aprendizagem de Máquina - Tribunal de Contas do Estado da Paraíba
+- Doutor em Ciência da Computação pela UFPE
 
 ## Pesquisa
 - [ARIA – Laboratório de Aplicações em Inteligência Artificial](https://aria.ci.ufpb.br)
@@ -32,7 +24,8 @@ title: "Yuri Malheiros"
 - [Elo do Campeonato Brasileiro](elo-brasileirao) 
 - [ARIA - 5 anos](aria-5-anos)
 
-## Código
+## Código / Dados
+- [Léxico de Vieses Políticos](http://huggingface.co/datasets/yurimalheiros/br-political-biases-lexicons/tree/main)
 - [SenticNet API](https://github.com/yurimalheiros/senticnetapi/)
 - [ID3 Decision Tree Algorithm Visualization](https://github.com/yurimalheiros/decisiontreejs)
 
