@@ -6,30 +6,55 @@ title: Elo - Campeonato Brasileiro
 
 {{< rawhtml >}}
 
-## 2024 (28a rodada)
+## 2025
 
 | Elo | Real | Time          |     Elo |
 | --: | ---: | ------------- | ------: |
-|   1 |    2 | Palmeiras     | 1203.84 |
-|   2 |    1 | Botafogo      | 1153.75 |
-|   3 |    3 | Fortaleza     | 1149.33 |
-|   4 |    4 | Flamengo      | 1139.71 |
-|   5 |    7 | Internacional | 1134.78 |
-|   6 |    5 | São Paulo     | 1112.46 |
-|   7 |   10 | Atlético-MG   | 1110.86 |
-|   8 |   11 | Grêmio        | 1069.15 |
-|   9 |    6 | Bahia         | 1066.86 |
-|  10 |    8 | Cruzeiro      | 1052.36 |
-|  11 |   13 | Bragantino    | 1045.14 |
-|  12 |   16 | Fluminense    | 1044.87 |
-|  13 |   18 | Corinthians   | 1042.31 |
-|  14 |    9 | Vasco         | 1040.19 |
-|  15 |   15 | Athletico-PR  | 1038.65 |
-|  16 |   19 | Cuiabá        |  997.17 |
-|  17 |   12 | Criciúma      |  985.39 |
-|  18 |   17 | Vitória       |  967.41 |
-|  19 |   14 | Juventude     |  966.03 |
-|  20 |   20 | Atlético-GO   |  945.54 |
+|   1 |    1 | Flamengo      | 1208.25 |
+|   2 |    2 | Palmeiras     | 1192.93 |
+|   3 |    6 | Botafogo      | 1164.30 |
+|   4 |    3 | Cruzeiro      | 1132.82 |
+|   5 |    5 | Fluminense    | 1132.30 |
+|   6 |    4 | Mirassol      | 1118.91 |
+|   7 |    7 | Bahia         | 1073.85 |
+|   8 |   18 | Fortaleza     | 1071.66 |
+|   9 |   13 | Corinthians   | 1065.43 |
+|  10 |    8 | São Paulo     | 1064.37 |
+|  11 |    9 | Grêmio        | 1058.95 |
+|  12 |   16 | Internacional | 1055.67 |
+|  13 |   11 | Atlético-MG   | 1054.62 |
+|  14 |   12 | Santos        | 1054.44 |
+|  15 |   15 | Vitória       | 1047.30 |
+|  16 |   10 | Bragantino    | 1026.22 |
+|  17 |   14 | Vasco         | 1023.68 |
+|  18 |   17 | Ceará         |  999.75 |
+|  19 |   20 | Sport         |  988.54 |
+|  20 |   19 | Juventude     |  973.41 |
+
+## 2024
+
+| Elo | Real | Time          |     Elo |
+| --: | ---: | ------------- | ------: |
+|   1 |    1 | Botafogo      | 1187.31 |
+|   2 |    2 | Palmeiras     | 1185.38 |
+|   3 |    3 | Flamengo      | 1164.47 |
+|   4 |    5 | Internacional | 1144.02 |
+|   5 |    4 | Fortaleza     | 1130.79 |
+|   6 |    7 | Corinthians   | 1125.07 |
+|   7 |    6 | São Paulo     | 1084.19 |
+|   8 |   12 | Atlético-MG   | 1069.82 |
+|   9 |   13 | Fluminense    | 1069.81 |
+|  10 |   14 | Grêmio        | 1061.71 |
+|  11 |   10 | Vasco         | 1048.37 |
+|  12 |   16 | Bragantino    | 1042.15 |
+|  13 |    9 | Cruzeiro      | 1038.68 |
+|  14 |   11 | Vitória       | 1031.97 |
+|  15 |    8 | Bahia         | 1031.94 |
+|  16 |   17 | Athletico-PR  | 1009.49 |
+|  17 |   15 | Juventude     |  987.05 |
+|  18 |   20 | Cuiabá        |  965.08 |
+|  19 |   19 | Atlético-GO   |  954.32 |
+|  20 |   18 | Criciúma      |  953.36 |
 
 ## 2023
 

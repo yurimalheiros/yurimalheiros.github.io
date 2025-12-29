@@ -106,10 +106,10 @@
 <script>
     const ctx = document.getElementById('myChart').getContext('2d');
 
-    const years = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
+    const years = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
 
     const teamsData = {
-        "América-MG": [
+            "América-MG": [
             null,
             null,
             928.7141899362392,
@@ -120,9 +120,10 @@
             1055.85218072291,
             1064.641382912985,
             947.8514237786576,
+            null,
             null
-        ],
-        "Athletico-PR": [
+            ],
+            "Athletico-PR": [
             1065.827159067518,
             1040.6361941072255,
             1057.9466542120988,
@@ -133,9 +134,10 @@
             1045.9465685821583,
             1073.6836844302916,
             1087.810383618806,
-            1038.6527504460053
-        ],
-        "Atlético-GO": [
+            1009.4874864495532,
+            null
+            ],
+            "Atlético-GO": [
             null,
             null,
             null,
@@ -146,9 +148,10 @@
             1075.013435153341,
             1003.1429083202044,
             null,
-            945.5499537025704
-        ],
-        "Atlético-MG": [
+            954.324992766686,
+            null
+            ],
+            "Atlético-MG": [
             1101.8715287617615,
             1118.911246510488,
             1114.4241944804771,
@@ -159,9 +162,10 @@
             1205.690466751934,
             1134.0356516236304,
             1156.5392912528832,
-            1110.868480227081
-        ],
-        "Bahia": [
+            1069.8168124876834,
+            1054.622729434892
+            ],
+            "Bahia": [
             974.9653139176652,
             null,
             null,
@@ -172,9 +176,10 @@
             1009.7498177015848,
             null,
             1016.8493531433016,
-            1066.8696222146098
-        ],
-        "Botafogo": [
+            1031.9375889659275,
+            1073.847416637588
+            ],
+            "Botafogo": [
             963.2199601406496,
             null,
             1057.0278458480218,
@@ -185,9 +190,10 @@
             null,
             1021.6783350369612,
             1069.3209446949936,
-            1153.7516053280858
-        ],
-        "Bragantino": [
+            1187.3133140798566,
+            1164.2961449073723
+            ],
+            "Bragantino": [
             null,
             null,
             null,
@@ -198,9 +204,10 @@
             1075.4133573240192,
             1018.0288540472552,
             1082.0404255706624,
-            1045.1429870242002
-        ],
-        "Ceará": [
+            1042.1527759333064,
+            1026.2194081578757
+            ],
+            "Ceará": [
             null,
             null,
             null,
@@ -211,22 +218,10 @@
             1064.25430066254,
             991.85518990834,
             null,
-            null
-        ],
-        "Chapecoense": [
-            997.2885220415257,
-            1011.9161804618064,
-            1049.3006196310214,
-            1071.4550487999195,
-            1030.4537582199898,
-            971.7371712876004,
             null,
-            873.9843198854404,
-            null,
-            null,
-            null
-        ],
-        "Corinthians": [
+            999.7476372245212
+            ],
+            "Corinthians": [
             1123.1006418762302,
             1193.135417224334,
             1092.60854342807,
@@ -237,9 +232,10 @@
             1086.9503886012703,
             1115.3078777465105,
             1093.592616922092,
-            1042.3149046654446
-        ],
-        "Coritiba": [
+            1125.0747807608432,
+            1065.4348975500602
+            ],
+            "Coritiba": [
             1037.8791146788392,
             1027.8296675980705,
             1024.3872409042558,
@@ -250,22 +246,10 @@
             null,
             973.2927957490488,
             940.8846937641794,
+            null,
             null
-        ],
-        "Criciúma": [
-            936.835882279606,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            985.3954927360074
-        ],
-        "Cruzeiro": [
+            ],
+            "Cruzeiro": [
             1181.2177786849618,
             1120.9392289346597,
             1081.7139217734114,
@@ -276,9 +260,10 @@
             null,
             null,
             1032.1465100575424,
-            1052.364849224998
-        ],
-        "Cuiabá": [
+            1038.6837510559938,
+            1132.8242888317045
+            ],
+            "Cuiabá": [
             null,
             null,
             null,
@@ -289,9 +274,10 @@
             1037.0514267406006,
             1012.5528956008704,
             1049.162707469117,
-            997.1705356198088
-        ],
-        "Flamengo": [
+            965.0818310995276,
+            null
+            ],
+            "Flamengo": [
             1054.4093589151407,
             1019.0364705509988,
             1126.3021224873842,
@@ -302,9 +288,10 @@
             1181.1223631430737,
             1129.2851663256115,
             1143.4220893107918,
-            1139.71149060542
-        ],
-        "Fluminense": [
+            1164.4740474600492,
+            1208.2478832376228
+            ],
+            "Fluminense": [
             1089.0193609275868,
             1011.4117142163532,
             1011.106357390577,
@@ -315,9 +302,10 @@
             1081.464368853697,
             1142.235792132959,
             1098.1116933041642,
-            1044.8783404182927
-        ],
-        "Fortaleza": [
+            1069.8089815422125,
+            1132.3029687083863
+            ],
+            "Fortaleza": [
             null,
             null,
             null,
@@ -328,9 +316,10 @@
             1049.2905897224916,
             1092.803782884891,
             1079.461177763673,
-            1149.3360813797449
-        ],
-        "Goiás": [
+            1130.792483342939,
+            1071.6604016478568
+            ],
+            "Goiás": [
             1017.323383067602,
             971.261786923725,
             null,
@@ -341,9 +330,10 @@
             null,
             1014.1664761251616,
             988.0576895540896,
+            null,
             null
-        ],
-        "Grêmio": [
+            ],
+            "Grêmio": [
             1103.666638546512,
             1128.2013307794384,
             1058.5726682713232,
@@ -354,9 +344,10 @@
             1059.2711715272071,
             null,
             1122.7181329387247,
-            1069.1569766462362
-        ],
-        "Internacional": [
+            1061.7072079147076,
+            1058.949630640917
+            ],
+            "Internacional": [
             1104.284763178626,
             1107.7040907367928,
             1023.9356950434218,
@@ -367,9 +358,10 @@
             1062.3616054161223,
             1164.0756602114484,
             1123.824915765259,
-            1134.788427739241
-        ],
-        "Juventude": [
+            1144.0191129684663,
+            1055.666728319571
+            ],
+            "Juventude": [
             null,
             null,
             null,
@@ -380,9 +372,24 @@
             1023.2399313252304,
             913.3553938522282,
             null,
-            966.0387819667694
-        ],
-        "Palmeiras": [
+            987.052188466732,
+            973.4139180555488
+            ],
+            "Mirassol": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1118.9067482535331
+            ],
+            "Palmeiras": [
             963.0981079332128,
             1009.7950951612166,
             1156.059005978235,
@@ -393,9 +400,10 @@
             1127.8185408778334,
             1208.2990896777308,
             1189.8061222589747,
-            1203.842221589082
-        ],
-        "Santos": [
+            1185.380258675791,
+            1192.930801447564
+            ],
+            "Santos": [
             1055.0746395641322,
             1079.3503841279366,
             1137.265868586306,
@@ -406,9 +414,10 @@
             1083.2064348115068,
             1033.9763175105682,
             1019.4564493547076,
-            null
-        ],
-        "Sport": [
+            null,
+            1054.4352795858745
+            ],
+            "Sport": [
             1024.765155117748,
             1081.3382685735396,
             1037.290647186459,
@@ -419,9 +428,10 @@
             988.5410472784184,
             null,
             null,
-            null
-        ],
-        "São Paulo": [
+            null,
+            988.5410472784184
+            ],
+            "São Paulo": [
             1124.2857130859202,
             1112.9209813156072,
             1071.3533916158256,
@@ -432,9 +442,10 @@
             1083.8855211732014,
             1088.322051476019,
             1086.0382392500137,
-            1112.4653216483098
-        ],
-        "Vasco": [
+            1084.1912896841905,
+            1064.3725161293742
+            ],
+            "Vasco": [
             null,
             1024.3112198291278,
             null,
@@ -445,9 +456,10 @@
             null,
             null,
             1032.778663578513,
-            1040.195419114285
-        ],
-        "Vitória": [
+            1048.368928133897,
+            1023.680515881728
+            ],
+            "Vitória": [
             988.3087784481226,
             null,
             998.9094569826294,
@@ -458,9 +470,11 @@
             null,
             null,
             null,
-            967.4110896938436
-        ]
-    }
+            1031.9711774219438,
+            1047.296736706736
+            ]
+            }
+
         ;
 
     const teamColors = {
@@ -496,7 +510,8 @@
         "Bragantino": 'rgba(255, 0, 0, 0.7)',
         "Cuiabá": 'rgba(125, 125, 0, 0.7)',
         "Juventude": 'rgba(0, 153, 0, 0.7)',
-        "Atlético-PR": 'rgba(255, 0, 0, 0.7)'
+        "Atlético-PR": 'rgba(255, 0, 0, 0.7)',
+        "Mirassol": 'rgba(255, 193, 7, 0.7)'
     };
 
     function getLastNonNull(arr) {
@@ -609,7 +624,7 @@
             checkbox.id = team;
             checkbox.name = team;
             checkbox.value = team;
-            checkbox.checked = ['Palmeiras', 'Flamengo', 'Botafogo', 'Fortaleza'].includes(team);
+            checkbox.checked = ['Palmeiras', 'Flamengo', 'Cruzeiro', 'Botafogo', 'Mirassol'].includes(team);
 
             checkbox.addEventListener('change', updateChart);
 
@@ -631,7 +646,7 @@
     createCheckboxes();
     updateChart();
 </script>
-<h2 id="2024-28a-rodada">2024 (28a rodada)</h2>
+<h2 id="2025">2025</h2>
 <table>
 <thead>
 <tr>
@@ -644,123 +659,256 @@
 <tbody>
 <tr>
 <td style="text-align:right">1</td>
+<td style="text-align:right">1</td>
+<td>Flamengo</td>
+<td style="text-align:right">1208.25</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
 <td style="text-align:right">2</td>
 <td>Palmeiras</td>
-<td style="text-align:right">1203.84</td>
+<td style="text-align:right">1192.93</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:right">6</td>
+<td>Botafogo</td>
+<td style="text-align:right">1164.30</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:right">3</td>
+<td>Cruzeiro</td>
+<td style="text-align:right">1132.82</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:right">5</td>
+<td>Fluminense</td>
+<td style="text-align:right">1132.30</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td style="text-align:right">4</td>
+<td>Mirassol</td>
+<td style="text-align:right">1118.91</td>
+</tr>
+<tr>
+<td style="text-align:right">7</td>
+<td style="text-align:right">7</td>
+<td>Bahia</td>
+<td style="text-align:right">1073.85</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">18</td>
+<td>Fortaleza</td>
+<td style="text-align:right">1071.66</td>
+</tr>
+<tr>
+<td style="text-align:right">9</td>
+<td style="text-align:right">13</td>
+<td>Corinthians</td>
+<td style="text-align:right">1065.43</td>
+</tr>
+<tr>
+<td style="text-align:right">10</td>
+<td style="text-align:right">8</td>
+<td>São Paulo</td>
+<td style="text-align:right">1064.37</td>
+</tr>
+<tr>
+<td style="text-align:right">11</td>
+<td style="text-align:right">9</td>
+<td>Grêmio</td>
+<td style="text-align:right">1058.95</td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td style="text-align:right">16</td>
+<td>Internacional</td>
+<td style="text-align:right">1055.67</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td style="text-align:right">11</td>
+<td>Atlético-MG</td>
+<td style="text-align:right">1054.62</td>
+</tr>
+<tr>
+<td style="text-align:right">14</td>
+<td style="text-align:right">12</td>
+<td>Santos</td>
+<td style="text-align:right">1054.44</td>
+</tr>
+<tr>
+<td style="text-align:right">15</td>
+<td style="text-align:right">15</td>
+<td>Vitória</td>
+<td style="text-align:right">1047.30</td>
+</tr>
+<tr>
+<td style="text-align:right">16</td>
+<td style="text-align:right">10</td>
+<td>Bragantino</td>
+<td style="text-align:right">1026.22</td>
+</tr>
+<tr>
+<td style="text-align:right">17</td>
+<td style="text-align:right">14</td>
+<td>Vasco</td>
+<td style="text-align:right">1023.68</td>
+</tr>
+<tr>
+<td style="text-align:right">18</td>
+<td style="text-align:right">17</td>
+<td>Ceará</td>
+<td style="text-align:right">999.75</td>
+</tr>
+<tr>
+<td style="text-align:right">19</td>
+<td style="text-align:right">20</td>
+<td>Sport</td>
+<td style="text-align:right">988.54</td>
+</tr>
+<tr>
+<td style="text-align:right">20</td>
+<td style="text-align:right">19</td>
+<td>Juventude</td>
+<td style="text-align:right">973.41</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2024">2024</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Elo</th>
+<th style="text-align:right">Real</th>
+<th>Time</th>
+<th style="text-align:right">Elo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:right">1</td>
+<td>Botafogo</td>
+<td style="text-align:right">1187.31</td>
 </tr>
 <tr>
 <td style="text-align:right">2</td>
-<td style="text-align:right">1</td>
-<td>Botafogo</td>
-<td style="text-align:right">1153.75</td>
+<td style="text-align:right">2</td>
+<td>Palmeiras</td>
+<td style="text-align:right">1185.38</td>
 </tr>
 <tr>
 <td style="text-align:right">3</td>
 <td style="text-align:right">3</td>
-<td>Fortaleza</td>
-<td style="text-align:right">1149.33</td>
-</tr>
-<tr>
-<td style="text-align:right">4</td>
-<td style="text-align:right">4</td>
 <td>Flamengo</td>
-<td style="text-align:right">1139.71</td>
+<td style="text-align:right">1164.47</td>
 </tr>
 <tr>
+<td style="text-align:right">4</td>
 <td style="text-align:right">5</td>
-<td style="text-align:right">7</td>
 <td>Internacional</td>
-<td style="text-align:right">1134.78</td>
+<td style="text-align:right">1144.02</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:right">4</td>
+<td>Fortaleza</td>
+<td style="text-align:right">1130.79</td>
 </tr>
 <tr>
 <td style="text-align:right">6</td>
-<td style="text-align:right">5</td>
-<td>São Paulo</td>
-<td style="text-align:right">1112.46</td>
+<td style="text-align:right">7</td>
+<td>Corinthians</td>
+<td style="text-align:right">1125.07</td>
 </tr>
 <tr>
 <td style="text-align:right">7</td>
-<td style="text-align:right">10</td>
-<td>Atlético-MG</td>
-<td style="text-align:right">1110.86</td>
-</tr>
-<tr>
-<td style="text-align:right">8</td>
-<td style="text-align:right">11</td>
-<td>Grêmio</td>
-<td style="text-align:right">1069.15</td>
-</tr>
-<tr>
-<td style="text-align:right">9</td>
 <td style="text-align:right">6</td>
-<td>Bahia</td>
-<td style="text-align:right">1066.86</td>
+<td>São Paulo</td>
+<td style="text-align:right">1084.19</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:right">12</td>
+<td>Atlético-MG</td>
+<td style="text-align:right">1069.82</td>
+</tr>
+<tr>
+<td style="text-align:right">9</td>
+<td style="text-align:right">13</td>
+<td>Fluminense</td>
+<td style="text-align:right">1069.81</td>
 </tr>
 <tr>
 <td style="text-align:right">10</td>
-<td style="text-align:right">8</td>
-<td>Cruzeiro</td>
-<td style="text-align:right">1052.36</td>
+<td style="text-align:right">14</td>
+<td>Grêmio</td>
+<td style="text-align:right">1061.71</td>
 </tr>
 <tr>
 <td style="text-align:right">11</td>
-<td style="text-align:right">13</td>
-<td>Bragantino</td>
-<td style="text-align:right">1045.14</td>
-</tr>
-<tr>
-<td style="text-align:right">12</td>
-<td style="text-align:right">16</td>
-<td>Fluminense</td>
-<td style="text-align:right">1044.87</td>
-</tr>
-<tr>
-<td style="text-align:right">13</td>
-<td style="text-align:right">18</td>
-<td>Corinthians</td>
-<td style="text-align:right">1042.31</td>
-</tr>
-<tr>
-<td style="text-align:right">14</td>
-<td style="text-align:right">9</td>
+<td style="text-align:right">10</td>
 <td>Vasco</td>
-<td style="text-align:right">1040.19</td>
+<td style="text-align:right">1048.37</td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td style="text-align:right">16</td>
+<td>Bragantino</td>
+<td style="text-align:right">1042.15</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td style="text-align:right">9</td>
+<td>Cruzeiro</td>
+<td style="text-align:right">1038.68</td>
+</tr>
+<tr>
+<td style="text-align:right">14</td>
+<td style="text-align:right">11</td>
+<td>Vitória</td>
+<td style="text-align:right">1031.97</td>
 </tr>
 <tr>
 <td style="text-align:right">15</td>
-<td style="text-align:right">15</td>
-<td>Athletico-PR</td>
-<td style="text-align:right">1038.65</td>
+<td style="text-align:right">8</td>
+<td>Bahia</td>
+<td style="text-align:right">1031.94</td>
 </tr>
 <tr>
 <td style="text-align:right">16</td>
-<td style="text-align:right">19</td>
-<td>Cuiabá</td>
-<td style="text-align:right">997.17</td>
+<td style="text-align:right">17</td>
+<td>Athletico-PR</td>
+<td style="text-align:right">1009.49</td>
 </tr>
 <tr>
 <td style="text-align:right">17</td>
-<td style="text-align:right">12</td>
-<td>Criciúma</td>
-<td style="text-align:right">985.39</td>
+<td style="text-align:right">15</td>
+<td>Juventude</td>
+<td style="text-align:right">987.05</td>
 </tr>
 <tr>
 <td style="text-align:right">18</td>
-<td style="text-align:right">17</td>
-<td>Vitória</td>
-<td style="text-align:right">967.41</td>
+<td style="text-align:right">20</td>
+<td>Cuiabá</td>
+<td style="text-align:right">965.08</td>
 </tr>
 <tr>
 <td style="text-align:right">19</td>
-<td style="text-align:right">14</td>
-<td>Juventude</td>
-<td style="text-align:right">966.03</td>
+<td style="text-align:right">19</td>
+<td>Atlético-GO</td>
+<td style="text-align:right">954.32</td>
 </tr>
 <tr>
 <td style="text-align:right">20</td>
-<td style="text-align:right">20</td>
-<td>Atlético-GO</td>
-<td style="text-align:right">945.54</td>
+<td style="text-align:right">18</td>
+<td>Criciúma</td>
+<td style="text-align:right">953.36</td>
 </tr>
 </tbody>
 </table>
