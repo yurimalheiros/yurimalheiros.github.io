@@ -1,0 +1,210 @@
+// Sizes
+$max-width: {{ .Param "style.pageWidth" | default "72ch" }};
+
+// Colors
+$white: {{ .Param "style.colorWhite" | default "#ffffff" }};
+$black: {{ .Param "style.colorBlack" | default "#111111" }};
+$accent: {{ .Param "style.colorRed" | default "#0000EE" }};
+$gray: #999999;
+$gray-light: #b3b3b3;
+
+// Fonts
+$mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+$serif: Charter, "Bitstream Charter", Georgia, "Times New Roman", serif;
+$reading-width: 660px;
+
+// Margins
+$y-small: 0.6rem;
+$y-medium: 2.4rem;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 56px 24px 96px;
+    background-color: $white;
+    color: $black;
+    font-family: $mono;
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+:focus-visible {
+    outline: 2px solid $accent;
+    outline-offset: 3px;
+}
+
+.container {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+// Páginas de artigo: coluna de leitura mais estreita,
+// texto corrido em serifada (títulos e navegação seguem mono)
+.narrow {
+    max-width: $reading-width;
+}
+#content .article {
+    max-width: $reading-width;
+    p, li, blockquote {
+        font-family: $serif;
+        font-size: 19px;
+        line-height: 1.6;
+    }
+    p {
+        margin-bottom: 1.1em;
+    }
+    ul, ol {
+        margin-bottom: 1.1em;
+    }
+    ul > li, ol > li {
+        margin-bottom: 0.35em;
+    }
+}
+
+// Header
+.site-title {
+    color: $black;
+    font-weight: 700;
+    text-decoration: none;
+    &::after {
+        content: " ▮";
+        color: $accent;
+    }
+    &:hover {
+        color: $accent;
+    }
+}
+
+// Content
+#content {
+    a {
+        color: $accent;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+        & * {
+            color: $accent;
+        }
+        &:hover {
+            background: $accent;
+            color: $white;
+            text-decoration: none;
+            & * {
+                color: $white;
+            }
+        }
+    }
+    p {
+        margin: 0 0 $y-small 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: $y-medium 0 $y-small 0;
+    }
+    h2::before {
+        content: "# ";
+        color: $accent;
+        font-weight: 400;
+    }
+    h3::before {
+        content: "## ";
+        color: $accent;
+        font-weight: 400;
+    }
+    h4::before {
+        content: "### ";
+        color: $accent;
+        font-weight: 400;
+    }
+    img {
+        display: block;
+        margin: $y-medium auto;
+        max-width: 100%;
+    }
+    ul {
+        list-style: none;
+        margin: 0 0 $y-small 0;
+        padding-left: 0;
+        & > li::before {
+            content: "- ";
+            color: $gray-light;
+        }
+        & ul {
+            padding-left: 2ch;
+            margin-bottom: 0;
+        }
+    }
+    ol {
+        counter-reset: list;
+        list-style: none;
+        margin: 0 0 $y-small 0;
+        padding-left: 0;
+        & > li::before {
+            content: "[" counter(list, decimal) "] ";
+            counter-increment: list;
+        }
+    }
+    table {
+        border-collapse: collapse;
+        margin: $y-medium 0;
+        font-size: 16px;
+        line-height: 1.5;
+        font-variant-numeric: tabular-nums;
+        & th, & td {
+            padding: 6px 16px;
+            text-align: left;
+        }
+        & th:first-child, & td:first-child {
+            padding-left: 0;
+        }
+        & th:last-child, & td:last-child {
+            padding-right: 0;
+        }
+        & th {
+            border-bottom: 2px solid $black;
+            font-weight: 700;
+        }
+        & td {
+            border-bottom: 1px solid #e5e5e5;
+        }
+    }
+    blockquote {
+        border-left: 2px solid $black;
+        color: #444444;
+        margin: $y-medium 0;
+        padding: 0 0 0 2ch;
+    }
+    code {
+        background-color: #f5f5f5;
+        padding: 0 4px;
+    }
+    pre {
+        overflow-x: auto;
+    }
+    pre code {
+        all: unset;
+    }
+    .highlight {
+        margin: $y-medium 0;
+        & > pre {
+            padding: 8px;
+        }
+    }
+}
+
+// Footer
+#footer {
+    margin-top: 4rem;
+    color: $gray;
+    font-size: 14px;
+    a {
+        color: $gray;
+        &:hover {
+            color: $black;
+        }
+    }
+}

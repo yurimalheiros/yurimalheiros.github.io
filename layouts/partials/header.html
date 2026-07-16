@@ -1,0 +1,10 @@
+<header class="container{{ if .Params.article }} narrow{{ end }}">
+    <a class="site-title" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
+    {{ with .Site.Menus.main }}
+        <nav class="site-nav">
+            {{ range . }}
+                <a href="{{ .URL }}" title="{{ .Name }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+            {{ end }}
+        </nav>
+    {{ end }}
+</header>
