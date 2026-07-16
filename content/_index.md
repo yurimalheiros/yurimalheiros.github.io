@@ -20,6 +20,7 @@ title: "Yuri Malheiros"
 - [IA para Todos](https://www.youtube.com/watch?v=areBEw5-nrc&list=PLM8TXdmR4D2NfGVIZxXQMkhzmi3uWpA3P)
 
 ## Misc
+- [Linha do Tempo dos LLMs](llm-timeline-pt)
 - [Gerenciamento de Tempo e Tarefas](gerenciamento-de-tempo)
 - [Elo do Campeonato Brasileiro](elo-brasileirao) 
 - [ARIA - 5 anos](aria-5-anos)
