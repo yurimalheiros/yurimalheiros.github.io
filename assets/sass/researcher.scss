@@ -27,7 +27,7 @@ body {
     background-color: $white;
     color: $black;
     font-family: $mono;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.65;
 }
 
@@ -50,8 +50,11 @@ body {
     max-width: $reading-width;
     p, li, blockquote {
         font-family: $serif;
-        font-size: 19px;
+        font-size: 17px;
         line-height: 1.6;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 17px;
     }
     p {
         margin-bottom: 1.1em;
@@ -101,7 +104,7 @@ body {
         margin: 0 0 $y-small 0;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-size: 1rem;
+        font-size: 1em;
         font-weight: 700;
         margin: $y-medium 0 $y-small 0;
     }
@@ -151,7 +154,7 @@ body {
     table {
         border-collapse: collapse;
         margin: $y-medium 0;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.5;
         font-variant-numeric: tabular-nums;
         & th, & td {
