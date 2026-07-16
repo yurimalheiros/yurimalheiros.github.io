@@ -1,5 +1,6 @@
 ---
 title: Elo - Campeonato Brasileiro
+article: true
 ---
 # Elo - Campeonato Brasileiro
 

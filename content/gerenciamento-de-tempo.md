@@ -1,5 +1,6 @@
 ---
 title: Gerenciamento de Tempo e Tarefas
+article: true
 ---
 # Gerenciamento de tempo e tarefas
 

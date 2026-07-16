@@ -1,5 +1,6 @@
 ---
 title: ARIA - 5 anos
+article: true
 ---
 
 # ARIA - 5 anos

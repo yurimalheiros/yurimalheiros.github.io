@@ -3,8 +3,6 @@ title: "Yuri Malheiros"
 ---
 
 ## Sobre
-{{<figure class="avatar" src="/profile.jpg" alt="avatar">}}
-
 - Professor do Centro de Informática da UFPB
 - Coordenador do [ARIA - Laboratório de Aplicações em Inteligência Artificial](https://aria.ci.ufpb.br)
 - Doutor em Ciência da Computação pela UFPE
@@ -20,7 +18,7 @@ title: "Yuri Malheiros"
 - [IA para Todos](https://www.youtube.com/watch?v=areBEw5-nrc&list=PLM8TXdmR4D2NfGVIZxXQMkhzmi3uWpA3P)
 
 ## Misc
-- [Linha do Tempo dos LLMs](llm-timeline-pt)
+- [Linha do Tempo dos LLMs](llm-timeline)
 - [Gerenciamento de Tempo e Tarefas](gerenciamento-de-tempo)
 - [Elo do Campeonato Brasileiro](elo-brasileirao) 
 - [ARIA - 5 anos](aria-5-anos)
@@ -32,5 +30,6 @@ title: "Yuri Malheiros"
 
 ## Contato
 - [Bluesky](https://bsky.app/profile/yurimalheiros.com)
+- [Twitter](https://x.com/yurimalheiros)
 - [GitHub](https://github.com/yurimalheiros)
 - [E-mail](mailto:yuri@ci.ufpb.br)
