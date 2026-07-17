@@ -3,8 +3,6 @@ title: ARIA - 5 anos
 article: true
 ---
 
-# ARIA - 5 anos
-
 No dia 14 de agosto de 2024, o ARIA completou 5 anos. Foi nesse dia, em 2019, que o laboratório foi formalizado, mas sua história começa um pouco antes. 
 
 No início de 2017 eu defendi o meu doutorado. Pouco tempo depois, visitando o Centro de Informática, eu encontrei Thaís pelos corredores, uma amiga que conheci ainda quando criança, mas que fazia muito tempo que eu a tinha visto. Nesse dia conversamos um pouco e ali surgiram as primeiras ideias que alguns anos depois deram origem ao ARIA.
