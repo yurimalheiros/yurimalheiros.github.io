@@ -14,6 +14,7 @@ publishDir = "docs"
           inline = [['\(', '\)']]
 
 [params]
+  lang = "pt-br"
   author = "Yuri Malheiros"
   description = "Yuri Malheiros - professor da UFPB."
   favicon = "favicon-96x96.png"  # path to a .ico to use as favicon
