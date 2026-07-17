@@ -1,6 +1,8 @@
 <footer id="footer" class="container{{ if .Params.article }} narrow{{ end }}">
-    {{ with .Site.Params.footer }}
-        <a href="{{ .url | absURL }}" title="{{ .text }}">{{ .text }}</a> ·
-    {{ end }}
-    última atualização: {{ now.Format "2006-01-02" }} · joão pessoa, br
+    <p>
+        {{ with .Site.Params.footer }}
+            <a href="{{ .url | absURL }}" title="{{ .text }}">{{ .text }}</a> ·
+        {{ end }}
+        Última atualização: {{ now.Format "02-01-2006" }}
+    </p>
 </footer>

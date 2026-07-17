@@ -200,10 +200,15 @@ body {
 }
 
 // Footer
+// o font-size fica no <p> interno: se ficasse no próprio #footer,
+// o max-width em ch do .container encolheria junto com a fonte
 #footer {
     margin-top: 4rem;
     color: $gray;
-    font-size: 14px;
+    p {
+        margin: 0;
+        font-size: 14px;
+    }
     a {
         color: $gray;
         &:hover {
